@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'Audiowide';
+	src: url('Fonts/Audiowide-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'Baloo';
+	src: url('Fonts/BalooThambi2-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'Baloo';
+	src: url('Fonts/BalooThambi2-SemiBold.ttf')  format('truetype');
+	font-weight: bold;
+}
+html, body{
+	height: 100vh;
+	font-family: Baloo;
+	font-size: 1vw;
+	scroll-behavior: smooth;
+}
+h1, h2, h4{
+	font-family: Audiowide;
+}
+#homeSection{
+	margin-top: 5vh;
+}
+#pageHeader{
+	height: 5vh;
+}
+#introHeader{
+	padding: 5em;
+}
+#aboutSection, #footerSection{
+	background-color: red;
+	padding: 10em;
+	color: white;
+}
+#skillsDiv{
+	background-color: white;
+	margin-top: -10vh;
+	padding: 3em;
+	border-radius: 35px;
+}
+#otherProjectsSection, #footerSection{
+	margin-top: 6em;
+}
+#footerSection{
+	padding-bottom: 5em;
+}
+.card-deck{
+	margin: 3em 0em;
+}
+/*TagCloud styles start*/
+.tagcloud {
+	font-size: 30px;
+	position: inherit !important;
+	margin-top: 7em;
+}
+.tagcloud--item {
+	padding: 4px 8px;
+	background-color: transparent;
+	cursor: default;
+}
+.tagcloud--item:hover {
+	font-size: 40px;
+}
+/*TagCloud styles end*/
+.card-body{
+	background-color: red;
+	color: white;
+}
+.social{
+	margin-bottom: 2em;
+}
+.social a{
+	text-decoration: none;
+	margin: 1em;
+	color: white;
+}
+.social a:hover{
+	text-decoration: none;
+	margin: 1em;
+	color: red;
+}
+.circle-border{
+	background: transparent;
+    padding:15px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.circle-border:hover{
+	background: white;
+
+}
+#goToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#goToTop:hover {
+  background-color: #555;
+}
