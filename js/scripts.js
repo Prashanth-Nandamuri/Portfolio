@@ -25,7 +25,8 @@ function callTag(rad){
 	});
 }
 window.onload = function generateSkillsCloud() {
-	callTag(275);
+	var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+	(width > 1000)?callTag(275):callTag(100);
 	var mybutton = document.getElementById("goToTop");
 	// When the user scrolls down 20px from the top of the document, show the button
 	window.onscroll = function() {scrollFunction()};
