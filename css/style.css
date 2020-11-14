@@ -11,6 +11,34 @@
 	src: url('Fonts/BalooThambi2-SemiBold.ttf')  format('truetype');
 	font-weight: bold;
 }
+@media screen and (max-width: 1000px) {
+	#logo{
+		max-width: 40px;
+	}
+	.w-50{
+		width: 100% !important;
+	}
+	/*TagCloud styles start*/
+	.tagcloud {
+		font-size: 15px !important;
+		position: inherit !important;
+		margin-top: 3em !important;
+	}
+	.tagcloud--item {
+		padding: 2px 4px !important;
+		background-color: transparent !important;
+		cursor: default !important;
+	}
+	.tagcloud--item:hover {
+		font-size: 20px !important;
+	}
+	/*TagCloud styles end*/
+}
+@media screen and (min-width: 1000px) {
+	#logo{
+		width: 80px;
+	}
+}
 html, body{
 	height: 100vh;
 	font-family: Baloo;
@@ -83,29 +111,29 @@ h1, h2, h4{
 }
 .circle-border{
 	background: transparent;
-    padding:15px;
-    border-radius: 50%;
-    border: 1px solid white;
+	padding:15px;
+	border-radius: 50%;
+	border: 1px solid white;
 }
 .circle-border:hover{
 	background: white;
 
 }
 #goToTop {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
 }
 #goToTop:hover {
-  background-color: #555;
+	background-color: #555;
 }
