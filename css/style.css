@@ -15,8 +15,14 @@
 	#logo{
 		max-width: 40px;
 	}
+	#selfImage{
+		max-width: 100px;
+	}
 	.w-50{
 		width: 100% !important;
+	}
+	p, h1, h2, h4{
+		font-size: large;
 	}
 	/*TagCloud styles start*/
 	.tagcloud {
